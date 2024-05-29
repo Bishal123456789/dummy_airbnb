@@ -12,4 +12,4 @@ sources:
         identifier: raw_listings #give the source table name which is present in snf
       
       - name: raw_reviews
-      - identifier: raw_reviews 
+        identifier: raw_reviews
