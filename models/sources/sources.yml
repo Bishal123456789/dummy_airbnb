@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: analytics  #just for reference, a name has been given, it can be different wrt to the source database
+  - name: airbnb  #just for reference, a name has been given, it can be different wrt to the source database
     database: airbnb #source database name present in snf
     schema: raw #source schema name present in snf
     tables:
@@ -12,4 +12,5 @@ sources:
         identifier: raw_listings #give the source table name which is present in snf
       
       - name: raw_reviews
-        identifier: raw_reviews 
+        identifier: raw_reviews
+        
