@@ -40,5 +40,7 @@ models:
     +materialized: view
     cleansing:
       +materialized: table
+    sources:
+      +materialized: ephemeral 
 
 
