@@ -8,3 +8,11 @@ sources:
       - name: src_reviews #remember this name should be used in sources sql file to call / use the source table
         identifier: src_hosts #give the source table name which is present in snf
         table_type: view
+        
+      - name: dim_listings_cleansed
+        identifier: dim_listings_cleansed
+        table_type: view
+      
+      - name: dim_hosts_cleansed
+        identifier: dim_hosts_cleansed
+        table_view: view
