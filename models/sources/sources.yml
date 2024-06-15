@@ -8,7 +8,7 @@ sources:
       - name: raw_hosts #remember this name should be used in sources sql file to call / use the source table
         identifier: raw_hosts #give the source table name which is present in snf
 
-      - name: raw_listings    #remember this name should be used in sources sql file to call / use the source table
+      - name: raw1_listings    #remember this name should be used in sources sql file to call / use the source table
         identifier: raw_listings #give the source table name which is present in snf
       
       - name: raw_reviews

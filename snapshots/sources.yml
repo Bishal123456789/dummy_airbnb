@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: airbnb  #just for reference, a name has been given, it can be different wrt to the source database
+    database: airbnb #source database name present in snf
+    schema: raw #source schema name present in snf
+    tables:    
+      - name: snapshot_listings #remember this name should be used in sources sql file to call / use the source table
+        identifier: raw_listings #give the source table name which is present in snf
