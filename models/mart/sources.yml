@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: airbnb  #just for reference, a name has been given, it can be different wrt to the source database
+    database: airbnb #source database name present in snf
+    schema: raw #source schema name present in snf
+    tables:    
+      - name: fct_reviews #remember this name should be used in sources sql file to call / use the source table
+        identifier: fct_reviews #give the source table name which is present in snf
+        
+      - name: seed_full_moon_dates
+        identifier: seed_full_moon_dates
